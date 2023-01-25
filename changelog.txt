@@ -11,13 +11,12 @@ Version: 4.9.0
   - Updated all outdated third party vendor libraries to their latest versions
   - Improved PHP Email From library to ignore server header responses like 409
 
+Version: 4.8.1
+  - Fixed the counters issue
+
 Version: 4.8.0
   - Updated Bootstrap to version 5.2.0
   - Updated all outdated third party vendor libraries to their latest versions
-
-Version: 4.7.1
-  - Fixed hero background images positioning issue
-  - Fixed gallery padding issue
 
 Version: 4.7.0
   - Updated Bootstrap to version 5.1.3
@@ -63,26 +62,32 @@ Version: 4.0.0
 Version: 3.0.0
   - Initial release with Bootstrap v5.0 Beta 1
 
-Version: 2.2.0
-  - Updated Bootstrap to version 4.5.3
-  - Updated all outdated third party vendor libraries to their latest versions
+Version: 2.5.0
   - Updated the PHP Email Form to v2.3
   - Other small fixes and improvements
 
-Version: 2.1.0
-  - Updated Bootstrap to version 4.5.0
+Version: 2.4.0
   - Updated the PHP Email Form library to version 2.0 with reCaptcha support
-  - Aded inner-page.html tempalte
-  - Added smooth scroll on page load with hash links in the url
+  - Updated Bootstrap to version 4.5.3
+  - Updated all outdated third party vendor libraries to their latest versions
+  - Updated the PHP Email Form to v2.1
+  - Other small fixes and improvements
+
+Version: 2.3.0
+  - Updated the PHP Email Form library to version 2.0 with reCaptcha support
   - Updated all outdated third party vendor libraries to their latest versions
   - Other small fixes and improvements
   
-Version: 2.0.2
-  - Fixed hero carousel buttons animation effect
-  - Updated jQuery to latest version 3.5.1
+Version: 2.2.0
+  - Added: Portfolio details page with lightbox support
+  - Updated Bootstrap to version 4.5
+  - Updated jQuery and Remixicon libraries to their latest versions 
+
+Version: 2.1.0
+  - Added: activate/show sections on load with hash links
 
 Version: 2.0.1
-  - Fixed scroll issue fo the slider buttons
+  - Added the missing social profile icons in the contact page
 
 Version: 2.0.0
   - The template was rebuilt from scratch with the latest Bootstrap version (4.4.1)
@@ -90,4 +95,4 @@ Version: 2.0.0
   - Added NodeJS NPM Development version (Pro unlimited & Membership members)
   
 Version: 1.0.0
-  - Initial Release
+- Initial Release
