@@ -1193,3 +1193,24 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+TABLE
+--------------------------------------------------------------*/
+td {
+  font-family: "Open Sans", sans-serif;
+  font-size: x-small;
+  background-color: #040404;
+  color: #faf7f7;
+  position: relative;
+  background: transparent;
+}
+
+th {
+  font-family: "Open Sans", sans-serif;
+  font-size:medium ;
+  background-color: #040404;
+  color: #faf7f7;
+  position:relative;
+  background: transparent;
+}
