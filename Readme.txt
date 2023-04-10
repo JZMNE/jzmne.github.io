@@ -1,9 +1,6 @@
-Thanks for downloading this template!
+Acknowledgemt to:
 
-
-Acknowledgement:
-
-Template Name: Personal
-Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+Template Name: MyPortfolio
+Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
