@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Olympics Athlete Predictions</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details ======= -->
+    <div id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-8">
+            <h2 class="portfolio-title">Welcome to Olympics Athlete Predictions Website</h2>
+
+            <div class="portfolio-details-slider swiper">
+              <form action="/predict" method="POST">
+                <label for="Age">Age:</label>
+                <input type="text" id="Age" name="Age" class="validate"><br><br>
+
+                <label for="Sex">Sex(M or F):</label>
+                <input type="text" id="Sex" name="Sex" class="validate"><br><br>
+
+                <label for="Height">Height:</label>
+                <input type="text" id="Height" name="Height" class="validate"><br><br>
+
+                <label for="Weight">Weight:</label>
+                <input type="text" id="Weight" name="Weight" class="validate"><br><br>
+
+                <label for="Region">Region:</label>
+                <input type="text" id="Region" name="Region" class="validate"><br><br>
+
+                <label for="Season">Season:</label>
+                <input type="text" id="Season" name="Season" class="validate"><br><br>
+
+                <label for="City">Host City:</label>
+                <input type="text" id="City" name="City" class="validate"><br><br>
+
+                <label for="Sports">Sports:</label>
+                <input type="text" id="Sports" name="Sports" class="validate"><br><br>
+
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+
+          </div> 
+
+        </div>
+
+      </div>
+    </div><!-- End Portfolio Details -->
+
+  </main><!-- End #main -->
+
+  <!-- Template Main JS File -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src=".js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+
+</body>
+
+</html>
